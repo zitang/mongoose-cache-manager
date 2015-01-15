@@ -1,5 +1,10 @@
 # Mongoose Cache Manager
 
+## Modification
+Add promise support via Q, and also reset cache on Model#save.
+
+## Description
+
 This module caches [mongoose][1] queries with [cache-manager][2] using an in-memory or Redis store. The module
 was originally based on [mongoose-redis-cache][3], but was change to allow for a generic caching store and to
 add timestamp checking to prevent serving of stale data.
